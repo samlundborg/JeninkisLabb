@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/samlundborg/TDDLabb1SamVG.git'
+                git 'https://github.com/samlundborg/JeninkisLabb.git'
             }
         }
         stage('Build') {
